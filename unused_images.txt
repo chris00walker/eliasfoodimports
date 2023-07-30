@@ -1,9 +1,0 @@
-./img/about/1.mp4
-./img/about/2.mp4
-./img/banner/b19.jpg
-./img/banner/b20.jpg
-./img/button.png
-./img/hero4-removebg-preview.png:Zone.Identifier
-./img/hero4.png
-./img/logo.avif
-./img/logo.png
