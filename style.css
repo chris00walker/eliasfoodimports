@@ -657,11 +657,23 @@ footer .copyright {
 }
 
 /* Blog Page */
-#page-header.blog-header {
+#blog-section.blog-header {
     background-image: url(img/banner/Optimized-b19.jpg);
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 4px;
+    background-repeat: no-repeat;
     background-position: center;
+}
+
+#blog-section h2,
+#blog-section p {
+    color: #fff;
 }
 
 #blog {
@@ -729,11 +741,23 @@ footer .copyright {
 }
 
 /* About Page */
-#page-header.about-header {
+#about-section.about-header {
     background-image: url(img/banner/Optimized-b20.jpg);
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 4px;
+    background-repeat: no-repeat;
     background-position: center;
+}
+
+#about-section h2,
+#about-section p {
+    color: #fff;
 }
 
 #about-head {
@@ -768,8 +792,23 @@ footer .copyright {
 
 /* Contact Page */
 
-#page-header.contact-header {
+#contact-section.contact-header {
     background-image: url(img/banner/b21.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contact-section h2,
+#contact-section p {
+    color: #fff;
 }
 
 #contact-details {
@@ -882,6 +921,25 @@ footer .copyright {
 }
 
 /* Cart Page */
+
+#cart-section.cart-header {
+    background-image: url(img/banner/b21.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cart-section h2,
+#cart-section p {
+    color: #fff;
+}
 
 #cart table {
     width: 100%;
