@@ -269,12 +269,12 @@ body {
     padding: 10px 0;
 }
 
-.product .pro .description span {
+.product .pro .description .product-brand {
     color: #606063;
     font-size: 12px;
 }
 
-.product .pro .description h5 {
+.product .pro .description .product-name {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
@@ -282,10 +282,10 @@ body {
 
 .product .pro .description i {
     font-size: 12px;
-    color: rgb(243, 181, 25)
+    color: rgb(243, 181, 25);
 }
 
-.product .pro .description h4 {
+.product .pro .description .product-price {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
