@@ -366,7 +366,7 @@ body {
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    padding: 30px;
+    padding: 2em;
 }
 
 #sm-banner .banner-box2 {
@@ -374,25 +374,29 @@ body {
 }
 
 #sm-banner h4 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 300;
 }
 
 #sm-banner h2 {
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: 800;
 }
 
 #sm-banner span {
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 500;
-    padding-bottom: 15px;
+    padding-bottom: 1em;
 }
 
 #sm-banner .banner-box:hover button {
     color: #fff;
     background: #088178;
     border: 1px solid #088178;
+}
+
+#sm-banner .banner-box button:focus {
+    outline: 2px solid #088178;
 }
 
 #banner3 {
