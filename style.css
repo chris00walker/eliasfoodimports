@@ -400,9 +400,9 @@ body {
 }
 
 #banner3 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     padding: 0 80px;
 }
 
@@ -410,13 +410,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-color: #f7b707;
     border: 5px solid #000;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    min-width: 30%;
+    flex: 1 0 30%;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -425,24 +425,37 @@ body {
     margin-bottom: 20px;
 }
 
-#banner3 .banner-box2 {
+#banner3 .banner-box.banner-box2 {
     background-color: #000;
 }
 
-#banner3 .banner-box3 {
+#banner3 .banner-box.banner-box3 {
     background-color: #088178;
 }
 
-#banner3 h2 {
+#banner3 .banner-box h2 {
     color: #fff;
     font-weight: 900;
     font-size: 22px;
 }
 
-#banner3 h3 {
+#banner3 .banner-box h3 {
     color: #ec544e;
     font-weight: 800;
     font-size: 15px;
+}
+
+#banner3 .banner-box button {
+    transition: all 0.3s ease-in-out;
+    margin-top: 1em;
+}
+
+/* Hover and focus styles for buttons */
+#banner3 .banner-box button:hover,
+#banner3 .banner-box button:focus {
+    transform: scale(1.05);
+    background-color: #ec544e;
+    color: #fff;
 }
 
 #newsletter {
