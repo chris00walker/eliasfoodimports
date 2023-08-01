@@ -524,26 +524,31 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
-    height: 100%;
+}
+
+footer .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
 }
 
 footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 15px;
-    margin-bottom: 20px;
     box-sizing: border-box;
 }
 
 footer h4 {
     font-size: 14px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-footer p {
+footer p,
+footer address p {
     font-size: 13px;
-    margin: 0 0 8px 0;
+    margin-bottom: 8px;
 }
 
 footer a {
@@ -570,7 +575,7 @@ footer .install>img {
 
 footer .install .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -592,6 +597,12 @@ footer a:hover {
 footer .copyright {
     width: 100%;
     text-align: center;
+}
+
+footer .col nav,
+footer .col .row {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Shop Page */
