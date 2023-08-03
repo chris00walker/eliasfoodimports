@@ -463,7 +463,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #041e42;
-    padding: 1em 2em;
+    padding: 4em 4em;
 }
 
 #newsletter h4 {
@@ -1081,7 +1081,7 @@ footer .col .row {
 }
 
 /* Start Media Query */
-@media (max-width:799px) {
+@media (max-width:768px) {
     #navbar {
         display: flex;
         flex-direction: column;
@@ -1098,6 +1098,21 @@ footer .col .row {
         transition: 0.3s;
     }
 
+    /* Other existing CSS rules... */
+
+    #mobile button,
+    #mobile i {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    #bar {
+        background-color: transparent;
+        /* This will remove the background color */
+    }
+
+    /* Other existing CSS rules... */
     #navbar.active {
         right: 0px;
     }
@@ -1115,7 +1130,8 @@ footer .col .row {
     #mobile i {
         color: #1a1a1a;
         font-size: 24px;
-        padding-left: 20px;
+        padding-left: 0;
+        margin-left: 20px;
     }
 
     #close {
@@ -1170,8 +1186,14 @@ footer .col .row {
         min-width: 28%;
     }
 
+    #newsletter {
+        flex-direction: column;
+        align-items: start;
+    }
+
     #newsletter .form {
-        width: 70%;
+        max-width: none;
+        width: 100%;
     }
 
     /* Contact Page */
